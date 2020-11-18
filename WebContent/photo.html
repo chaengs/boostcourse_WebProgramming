@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: lavenderblush;
+            font-family: 'Jua', sans-serif;
+            font-size: 24px;
+        }
+
+        header {
+            margin: 20px 50px;
+        }
+
+        section {
+            background-color: white;
+            text-align: left;
+            margin: 20px 50px;
+            clear: both;
+        }
+
+        footer {
+            background-color: white;
+            text-align: center;
+            font-size: 15px;
+            color: gray;
+            height: 25px;
+            margin: 20px 50px;
+        }
+
+        #menu_top {
+            list-style: none;
+            text-align: center;
+            height: 100%;
+            margin: 0px 10px;
+            float: right;
+        }
+
+        #menu_top li {
+            background-color: lightcoral;
+            margin: 16px 20px;
+            line-height: 42px;
+            width: 100px;
+            height: 35px;
+            float: left;
+            box-shadow: 2px 2px 5px gray;
+            cursor: pointer;
+        }
+
+        div.menu_backgr {
+            background-color: white;
+            width: 100%;
+            height: 70px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        img {
+            float: left;
+            width: 400px;
+            height: 300px;
+            border: 5px solid lightcoral;
+            margin: 20px;
+        }
+
+        .photo {
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="menu_backgr">
+            <ul class="menu" id="menu_top">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="aboutme.html">자기소개</a></li>
+                <li><a href="photo.html">내 사진</a></li>
+                <li>몇시에요?</li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="photo">
+            <img src="arong_sleep.jpg" alt="졸고있는 아롱이">
+            <p>
+                2020.10.30<br>
+                퇴근 시간이 가까워지면 나는 현관 문 앞에서 엄마 아빠를 기다려.<br>
+                그런데 가만히 기다리다보면 잠이 오더라구..zzZ
+            </p>
+        </div>
+        <hr style="border-style: 1px solid gray; width : 95%;">
+        </hr>
+        <div class="photo">
+            <img src="arong_belly.jpg" alt="배 까고 있는 아롱이">
+            <p>
+                2020.10.24<br>
+                아침에 막 자고 일어났을 때야. 나는 부시시해도 귀엽지?<br>
+                이렇게 누워있으면 가족들이 배를 쓰다듬어줘서 기분좋아.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>
+            arong@daeng.com
+        </p>
+    </footer>
+</body>
+
+</html>
